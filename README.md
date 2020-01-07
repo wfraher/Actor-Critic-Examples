@@ -1,0 +1,2 @@
+# Actor-Critic-for-the-Pole-Balancing-Problem
+Actor-Critic Policy Gradient implementation for the pole balancing problem using TensorFlow and OpenAI Gym. Note that this implementation is NOT A3C as it does not use multithreading. Included are a regular Actor-Critic agent and an agent using N-Step Actor-Critic. Both perform 1000 trials and produce a graph of their performance over time. The standard Actor-Critic agent tends to outperform the N-Step Actor Critic agent in this environment.
